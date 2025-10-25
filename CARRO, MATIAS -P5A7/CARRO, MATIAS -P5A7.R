@@ -76,9 +76,10 @@ dpois(6,10)
 
 #se calcula 
 ppois(12, 20)
+#Resultado:  0.03901199
 
 #Ej 6.c
-#Interseccion: x >= 8  x <= 9
+#x >= 8  x <= 9
 
 #Lambda = 15 (mismo tiempo que el enunciado)
 
@@ -88,7 +89,7 @@ ppois(8 - 1, 15, lower.tail = FALSE)
 #x <= 9
 ppois(9, 15)
 
-#Diferencia?
+#Diferencia
 ppois(8 - 1, 15, lower.tail = FALSE) - ppois(9, 15)
 
 #Resultado:
