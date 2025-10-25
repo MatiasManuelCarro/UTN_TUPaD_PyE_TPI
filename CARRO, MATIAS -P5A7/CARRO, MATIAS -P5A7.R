@@ -42,13 +42,6 @@ sum(dbinom(1:4, 16, 0.64))
 
 #Ej 5.d
 
-#Usando formula binomial
-#16 C 10 * 0.06 ^ 10 * (1 - 0.06) ^ 16 - 10
-choose(16, 10) # = 8008
-format((0.06 ^ 10), scientific = FALSE, digits = 12) # = 0.00000000000060466176
-((1 - 0.06)^(16-10)) # = 0.6898698
-
-format((8008 * 0.00000000000060466176 * 0.6898698), scientific = FALSE, digits = 12)
 #muy insatisfechos = 0.06
 dbinom(10, 16, 0.06)
 #resultado: 3.34044e-09
@@ -92,12 +85,12 @@ ppois(12, 20)
 #Poisson
 #x >= 8
 ppois(8 - 1, 15, lower.tail = FALSE)
-
 #x <= 9
 ppois(9, 15)
 
-#interseccion
+#Diferencia?
 ppois(8 - 1, 15, lower.tail = FALSE) - ppois(9, 15)
+
 #Resultado:
 #0.9121441
 
