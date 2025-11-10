@@ -2,6 +2,7 @@
 # Pregunta 8 – Trabajo Práctico Integrador
 # Muestreo aleatorio simple y comparación de medias
 # Estadística – UTN (Semana 12-13)
+#Alumno: Carro Matias
 ############################################################
 
 rm(list = ls()) #Elimina los objetos del entorno para evitar interferencias 
